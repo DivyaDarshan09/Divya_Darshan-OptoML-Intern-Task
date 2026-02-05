@@ -58,11 +58,11 @@ gtkwave wave.vcd
 ```
 **Terminal Screenshot**
 
-[!rtl sim](Images/terminal_ss.png)
+[!rtl sim](Images/terminal_ss.jpeg)
 
 **Screenshot**: Waveform of Pipelined Register
 
-[!rtl sim](Images/gtkwave.png)
+[!rtl sim](Images/gtkwave.jpeg)
 
 ---
 ## Synthesis
@@ -103,9 +103,9 @@ write_verilog synth/pipeline_reg_syn.v
 
 **Screenshot**: Synthesis schematic
 
-[synth](Images/synth_schematic_1.png)
+[synth](Images/synth_schematic_1.jpeg)
 
-[synth](Images/synth_schematic_2.png)
+[synth](Images/synth_schematic_2.jpeg)
 
 ---
 ### Key Takeaways
