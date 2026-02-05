@@ -96,9 +96,9 @@ write_verilog synth/pipeline_reg_syn.v
 
 **Terminal Screenshot** 
 
-[synth](Images/synth_1.png)
+[synth](Images/synth_1.jpeg)
 
-[synth](Images/synth_1.png)
+[synth](Images/synth_1.jpeg)
 
 
 **Screenshot**: Synthesis schematic
