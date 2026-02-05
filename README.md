@@ -33,13 +33,9 @@
 - No combinational loops or latches
 - Single-clock synchronous reset
 
-[You can checkout the code here](RTL)
+👉[You can click here to checkout the code](RTL)
 
 ---
-## Verification
-
----
-
 ## Verification
 ### Testbench Features
 - Directed tests for:
@@ -50,7 +46,7 @@
 - Cycle-accurate monitoring
 - Backpressure and drain behavior validation
 
-👉 [You can check out the testbench here](TB/pipeline_reg_tb.sv)
+👉 [You can click here to check out the testbench](TB/pipeline_reg_tb.sv)
 
 ---
 ### RTL Simulation
@@ -62,17 +58,17 @@ gtkwave wave.vcd
 ```
 **Terminal Screenshot**
 
-[!rtl sim](images/terminal_ss.png)
+[!rtl sim](Images/terminal_ss.png)
 
 **Screenshot**: Waveform of Pipelined Register
 
-[!rtl sim](images/gtkwave.png)
+[!rtl sim](Images/gtkwave.png)
 
 ---
 ## Synthesis
 ### Tool Used
 ```bash
-Yosys (generic + Sky130 technology mapping)
+Yosys 
 ```
 
 - Commands Used:
@@ -100,11 +96,16 @@ write_verilog synth/pipeline_reg_syn.v
 
 **Terminal Screenshot** 
 
-[synth](images/synth_1.png)
+[synth](Images/synth_1.png)
 
-[synth](images/synth_1.png)
+[synth](Images/synth_1.png)
 
-[synth](images/synth_schematic.png)
+
+**Screenshot**: Synthesis schematic
+
+[synth](Images/synth_schematic_1.png)
+
+[synth](Images/synth_schematic_2.png)
 
 ---
 ### Key Takeaways
