@@ -92,7 +92,7 @@ show
 #To create the synthesized netlist
 write_verilog synth/pipeline_reg_syn.v
 ```
-👉[Synthesis reports and netlist are available in](Synth/)
+👉[Synthesis reports and netlist are available in](Synthesis/)
 
 **Terminal Screenshot** 
 
